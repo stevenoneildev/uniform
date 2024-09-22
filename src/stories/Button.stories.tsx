@@ -49,5 +49,7 @@ Primary.args = {
   variant: 'Primary',
   size: 'Large',
   label: 'Button',
+  hasLeadingIcon: false,
+  hasTrailingIcon: false,
   disabled: false,
 };
