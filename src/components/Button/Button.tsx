@@ -18,6 +18,8 @@ export type ButtonProps = {
     style?: React.CSSProperties;
 };
 
+// Add aria label
+
 const StyledButton = styled.button<ButtonProps>`
     font-family: ${({ theme }) => theme.typography.fontFamily};
     font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
